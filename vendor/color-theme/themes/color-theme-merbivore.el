@@ -1,0 +1,33 @@
+(defun color-theme-merbivore ()
+  (interactive)
+  (color-theme-install
+   '(color-theme-merbivore
+   ((background-color . "Black")
+   (background-mode . dark)
+   (cursor-color . "#FFFFFF")
+   (foreground-color . "#E6E1DC"))
+   (default ((t (nil))))
+   (bold ((t (:bold t))))
+   (fringe ((t (:background "#000000"))))
+   (bold-italic ((t (:italic t :bold t))))
+   (font-lock-builtin-face ((t (:foreground "#E1C582"))))
+   (font-lock-comment-face ((t (:foreground "#AC4BB8" :italic t))))
+   (font-lock-constant-face ((t (:foreground "#68C1D8"))))
+   (font-lock-doc-string-face ((t (:foreground "red")))) ; TODO
+   (font-lock-function-name-face ((t (:foreground "#FFFFFF"))))
+   (font-lock-keyword-face ((t (:foreground "#FC803A"))))
+   (font-lock-preprocessor-face ((t (:foreground "#FC803A")))) ; TODO
+   (font-lock-reference-face ((t (:foreground "red")))) ; TODO
+   (font-lock-string-face ((t (:foreground "#8EC65F"))))
+   (font-lock-type-face ((t (:foreground "#68C1D8"))))
+   (font-lock-variable-name-face ((t (:foreground "#E1C582"))))
+   (font-lock-warning-face ((t (:foreground "white") (:background "#B60000"))))
+   (minibuffer-prompt ((t (:foreground "#AC4BB8"))))
+   (ido-subdir ((t (:foreground "#68C1D8"))))
+   (ido-only-match ((t (:foreground "#8EC65F"))))
+   (textile-link-face ((t (:foreground "#8EC65F"))))
+   (textile-ol-bullet-face ((t (:foreground "#FC803A"))))
+   (textile-ul-bullet-face ((t (:foreground "#FC803A"))))
+   (highlight ((t (:background "gray12"))))
+   (italic ((t (:italic t))))
+   (underline ((t (:underline t)))))))
