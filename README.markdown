@@ -1,11 +1,11 @@
 # Emacs Dot Files
-#
-# This is based on customisations by Geoffrey Grosenbach (topfunky) on Phil
-# Hagelberg's emacs-starter-kit
-#
-# I am currently using this with [Aqua Emacs](http://aquamacs.org/). Although
-# the original files are designed to be used with Carbon.
-#
+
+ This is based on customisations by Geoffrey Grosenbach (topfunky) on Phil
+ Hagelberg's emacs-starter-kit
+
+ I am currently using this with [Aqua Emacs](http://aquamacs.org/). Although
+ the original files are designed to be used with Carbon.
+
 
 # Emacs Starter Kit
 
