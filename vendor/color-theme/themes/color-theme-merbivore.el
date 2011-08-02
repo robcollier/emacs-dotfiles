@@ -2,7 +2,7 @@
   (interactive)
   (color-theme-install
    '(color-theme-merbivore
-   ((background-color . "Black")
+   ((background-color . "#272822")
    (background-mode . dark)
    (cursor-color . "#FFFFFF")
    (foreground-color . "#E6E1DC"))

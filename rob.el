@@ -18,6 +18,20 @@
 ;; Clojure
 ;;(eval-after-load 'clojure-mode '(clojure-slime-config))
 
+
+
+;; Load Cedet (for ECB)
+(load-file "~/.emacs.d/vendor/cedet-1.0/common/cedet.el")
+
+(global-ede-mode 1)
+
+;; Load ECB (after Cadet)
+(add-to-list 'load-path
+            "~/.emacs.d/vendor/ecb-2.40/")
+(require 'ecb)
+(require 'ecb-autoloads)
+
+
 (require 'topfunky/plain-text)
 
 ;; Snippets
@@ -102,13 +116,13 @@
 (require 'topfunky/applescript)
 (require 'topfunky/org)
 (require 'topfunky/textile)
-(require 'topfunky/markdown)
+;;(require 'topfunky/markdown)
 ;;(require 'topfunky/haml)
 ;;(require 'topfunky/xcode)
 (require 'topfunky/keyboard)
 
 ;; gist
-(require 'gist)
+;;(require 'gist)
 
 ;; Mercurial
 ;;(require 'mercurial)
